@@ -1,0 +1,989 @@
+Discrepancy Report Results
+
+Summary
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:location   (all present, all unique)
+DISC_FEATURE_COUNT:gene: 4756 present
+DISC_FEATURE_COUNT:CDS: 4536 present
+DISC_FEATURE_COUNT:tRNA: 83 present
+DISC_FEATURE_COUNT:rRNA: 21 present
+EXTRA_GENES:116 gene features are not associated with a CDS or RNA feature.
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+GENE_PRODUCT_CONFLICT:153 coding regions have the same gene name as another coding region but a different product.
+DUPLICATE_GENE_LOCUS:223 genes have the same locus as another gene on the same Bioseq.
+OVERLAPPING_CDS:69 coding regions overlap another coding region with a similar or identical name.
+CONTAINED_CDS:47 coding regions are completely contained in another coding region, but on the opposite strand.
+RNA_CDS_OVERLAP:9 coding regions overlap RNA features
+SUSPECT_PRODUCT_NAMES:265 product_names contain 'suspect phrase or characters'
+	14 product names end with binding
+	5 product names end with domain
+	25 product names end with like
+	2 product names end with motif
+	6 product names end with related
+	3 product names end with repeat
+	13 product names contain 'gene'
+	2 product names contain 'genes'
+	1 product names contain 'streptomyces'
+	2 product names contain 'utilisation'
+	2 product names contain 'fold'
+	23 product names contain 'all capital letters'
+	16 product names contain 'three or more numbers together, not after 'UPF' or 'DUF' or 'IS' and not followed by the word 'family' and not preceded by either 'cytochrome' or 'coenzyme''
+	78 product names contain 'Brackets or parenthesis [] ()'
+	1 product names contain '. '
+	4 product names contain 'Homolog'
+	1 product names contain 'active site'
+	1 product names contain 'biosyntesis'
+	1 product names contain 'disulphide'
+	1 product names contain 'golgi'
+	2 product names contain 'haem'
+	1 product names contain 'homeserine'
+	2 product names contain 'putaive'
+	1 product names contain 'signalling'
+	2 product names contain 'sulpho'
+	4 product names contain 'sulphur'
+	1 product names contain 'C-term'
+	4 product names contain 'N-term'
+	2 product names contain 'Two or more sets of brackets or parentheseis'
+	2 product names contain 'double space'
+	7 product names contain '_'
+	36 product names contain 'may contain a plural'
+N_RUNS:1 sequences have runs of 20 or more Ns
+ADJACENT_PSEUDOGENES:3 pseudogenes match an adjacent pseudogene's text
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+DISC_TRINOMIAL_SHOULD_HAVE_QUALIFIER:1 trinomial sources lack corresponding qualifier
+
+
+Detailed Report
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::location   (all present, all unique)
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for location  
+DiscRep_ALL:DISC_FEATURE_COUNT::gene: 4756 present
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 4536 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 83 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 21 present
+DiscRep_ALL:EXTRA_GENES::116 gene features are not associated with a CDS or RNA feature.
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0018	lcl|SCA50:17869-19964	SCA50_0018
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0023	lcl|SCA50:25804-28422	SCA50_0023
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0122	lcl|SCA50:28902-29843	SCA50_0122
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0036	lcl|SCA50:35694-37183	SCA50_0036
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0106	lcl|SCA50:c115313-113611	SCA50_0106
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0283	lcl|SCA50:307101-309737	SCA50_0283
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0405	lcl|SCA50:c424278-423522	SCA50_0405
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0421	lcl|SCA50:c441600-438436	SCA50_0421
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0423	lcl|SCA50:443100-445387	SCA50_0423
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0426	lcl|SCA50:c446337-446185	SCA50_0426
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0554	lcl|SCA50:578123-578773	SCA50_0554
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0575	lcl|SCA50:c602148-601325	SCA50_0575
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0596	lcl|SCA50:621824-623610	SCA50_0596
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0629	lcl|SCA50:c656897-656588	SCA50_0629
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0633	lcl|SCA50:c658133-657948	SCA50_0633
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0691	lcl|SCA50:719240-720476	SCA50_0691
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0693	lcl|SCA50:c722014-721210	SCA50_0693
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0705	lcl|SCA50:733372-733941	SCA50_0705
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0729	lcl|SCA50:753517-754683	SCA50_0729
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0737	lcl|SCA50:762251-763711	SCA50_0737
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0770	lcl|SCA50:c794425-793289	SCA50_0770
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0833	lcl|SCA50:c855642-854661	SCA50_0833
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0879	lcl|SCA50:902852-903408	SCA50_0879
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0894	lcl|SCA50:918739-919663	SCA50_0894
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0915	lcl|SCA50:942231-943168	SCA50_0915
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0921	lcl|SCA50:950166-950546	SCA50_0921
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0927	lcl|SCA50:c958027-957103	SCA50_0927
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0928	lcl|SCA50:c958718-958292	SCA50_0928
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1016	lcl|SCA50:1050765-1053027	SCA50_1016
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1068	lcl|SCA50:1099365-1101500	SCA50_1068
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1081	lcl|SCA50:1110850-1113290	SCA50_1081
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1147	lcl|SCA50:1177347-1179230	SCA50_1147
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1181	lcl|SCA50:1209128-1209632	SCA50_1181
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1204	lcl|SCA50:1229858-1230779	SCA50_1204
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1344	lcl|SCA50:1358069-1358194	SCA50_1344
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1443	lcl|SCA50:1441577-1441840	SCA50_1443
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1600	lcl|SCA50:c1592684-1591654	SCA50_1600
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1612	lcl|SCA50:c1601202-1599952	SCA50_1612
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1619	lcl|SCA50:c1607057-1606644	SCA50_1619
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1646	lcl|SCA50:c1633920-1633051	SCA50_1646
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1685	lcl|SCA50:1669199-1672936	SCA50_1685
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1695	lcl|SCA50:c1684596-1683934	SCA50_1695
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1717	lcl|SCA50:1707914-1708892	SCA50_1717
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1731	lcl|SCA50:c1721060-1719555	SCA50_1731
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1739	lcl|SCA50:c1728719-1728004	SCA50_1739
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1742	lcl|SCA50:1731743-1732500	SCA50_1742
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1746	lcl|SCA50:1734727-1736272	SCA50_1746
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1749	lcl|SCA50:c1738202-1737675	SCA50_1749
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1778	lcl|SCA50:c1768107-1767553	SCA50_1778
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1781	lcl|SCA50:c1771002-1769060	SCA50_1781
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1791	lcl|SCA50:1778796-1779723	SCA50_1791
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1908	lcl|SCA50:1895807-1897598	SCA50_1908
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1913	lcl|SCA50:1900258-1901799	SCA50_1913
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1914	lcl|SCA50:1901814-1902947	SCA50_1914
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1986	lcl|SCA50:c1967540-1966370	SCA50_1986
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2036	lcl|SCA50:2007541-2008491	SCA50_2036
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2038	lcl|SCA50:2009125-2009720	SCA50_2038
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2079	lcl|SCA50:c2049294-2048972	SCA50_2079
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2132	lcl|SCA50:c2088471-2087563	SCA50_2132
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2145	lcl|SCA50:2098932-2099372	SCA50_2145
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2276	lcl|SCA50:2226907-2228315	SCA50_2276
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2301	lcl|SCA50:c2249159-2249046	SCA50_2301
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2353	lcl|SCA50:c2301709-2300193	SCA50_2353
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2398	lcl|SCA50:c2348907-2346664	SCA50_2398
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2453	lcl|SCA50:2411746-2413724	SCA50_2453
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2458	lcl|SCA50:c2417227-2416973	SCA50_2458
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2487	lcl|SCA50:c2447682-2447501	SCA50_2487
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2621	lcl|SCA50:c2571629-2571138	SCA50_2621
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2623	lcl|SCA50:c2573206-2572314	SCA50_2623
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2625	lcl|SCA50:c2576001-2574601	SCA50_2625
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2646	lcl|SCA50:2597024-2598721	SCA50_2646
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2703	lcl|SCA50:c2679813-2677501	SCA50_2703
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2704	lcl|SCA50:c2684748-2679817	SCA50_2704
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2855	lcl|SCA50:2822105-2823322	SCA50_2855
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2883	lcl|SCA50:c2859459-2857950	SCA50_2883
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3029	lcl|SCA50:c2998135-2996936	SCA50_3029
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3030	lcl|SCA50:2998223-2999145	SCA50_3030
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3063	lcl|SCA50:c3027701-3026200	SCA50_3063
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3091	lcl|SCA50:c3062973-3061636	SCA50_3091
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3108	lcl|SCA50:3079823-3081238	SCA50_3108
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3155	lcl|SCA50:3133103-3133967	SCA50_3155
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3218	lcl|SCA50:c3194041-3192572	SCA50_3218
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3382	lcl|SCA50:3349249-3350232	SCA50_3382
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3400	lcl|SCA50:3368740-3370308	SCA50_3400
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3536	lcl|SCA50:3501348-3503444	SCA50_3536
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3539	lcl|SCA50:3504526-3505679	SCA50_3539
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3540	lcl|SCA50:3505694-3508804	SCA50_3540
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3630	lcl|SCA50:3572212-3577911	SCA50_3630
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3681	lcl|SCA50:3637260-3638972	SCA50_3681
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3700	lcl|SCA50:3661370-3662401	SCA50_3700
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3714	lcl|SCA50:c3675530-3674424	SCA50_3714
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3763	lcl|SCA50:3727949-3728845	SCA50_3763
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3795	lcl|SCA50:c3764771-3762246	SCA50_3795
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3828	lcl|SCA50:3792504-3793196	SCA50_3828
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3830	lcl|SCA50:3794439-3796391	SCA50_3830
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3850	lcl|SCA50:3821237-3822544	SCA50_3850
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3921	lcl|SCA50:c3894102-3893057	SCA50_3921
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3944	lcl|SCA50:c3914718-3913393	SCA50_3944
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_3978	lcl|SCA50:c3951388-3950351	SCA50_3978
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4000	lcl|SCA50:3975918-3976846	SCA50_4000
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4011	lcl|SCA50:c3987233-3985885	SCA50_4011
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4119	lcl|SCA50:4092616-4093955	SCA50_4119
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4173	lcl|SCA50:c4152766-4151700	SCA50_4173
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4230	lcl|SCA50:4202557-4204088	SCA50_4230
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4314	lcl|SCA50:c4294984-4294643	SCA50_4314
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4365	lcl|SCA50:c4345289-4343745	SCA50_4365
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4373	lcl|SCA50:c4352183-4349832	SCA50_4373
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4377	lcl|SCA50:c4354688-4353261	SCA50_4377
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4468	lcl|SCA50:c4468072-4467809	SCA50_4468
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4540	lcl|SCA50:4534254-4534954	SCA50_4540
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4545	lcl|SCA50:4537737-4538897	SCA50_4545
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4572	lcl|SCA50:c4561226-4560382	SCA50_4572
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4584	lcl|SCA50:c4576528-4575369	SCA50_4584
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4679	lcl|SCA50:4668581-4669945	SCA50_4679
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4691	lcl|SCA50:4679136-4681819	SCA50_4691
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_4705	lcl|SCA50:4693107-4693828	SCA50_4705
+
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:SCA50 (length 4740379)
+
+DiscRep_ALL:GENE_PRODUCT_CONFLICT::153 coding regions have the same gene name as another coding region but a different product.
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	CitG protein	lcl|SCA50:67186-68094	SCA50_0063
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	triphosphoribosyl-dephospho-CoA synthase	lcl|SCA50:c724521-723625	SCA50_0695
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative inner membrane protein	lcl|SCA50:89343-89537	SCA50_0086
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transcriptional regulator CysB	lcl|SCA50:c1817205-1816231	SCA50_1830
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	4-hydroxythreonine-4-phosphate dehydrogenase	lcl|SCA50:c98689-97700	SCA50_0094
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	4-hydroxythreonine-4-phosphate dehydrogenase 2	lcl|SCA50:188522-189505	SCA50_0175
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	D-alanine--D-alanine ligase	lcl|SCA50:146944-147864	SCA50_0137
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	D-alanyl-alanine synthetase A	lcl|SCA50:c479130-478036	SCA50_0452
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	lysR family transcriptional regulator	lcl|SCA50:157384-158325	SCA50_0146
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA-binding transcriptional regulator LysR	lcl|SCA50:3123793-3124728	SCA50_3145
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	iron-hydroxamate transporter ATP-binding subunit	lcl|SCA50:222084-222881	SCA50_0204
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC-type cobalamin/Fe3+-siderophores transport system, ATPase component	lcl|SCA50:862803-863579	SCA50_0840
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	sapA-like protein	lcl|SCA50:c354615-353896	SCA50_0325
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	peptide transport periplasmic protein SapA	lcl|SCA50:1791480-1793153	SCA50_1805
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	endodeoxyribonuclease RUS	lcl|SCA50:389632-390027	SCA50_0368
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	crossover junction endodeoxyribonuclease	lcl|SCA50:1313351-1313740	SCA50_1291
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bactoprenol glucosyl transferase	lcl|SCA50:c412629-411703	SCA50_0394
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative phage glycosyltransferase	lcl|SCA50:c4346218-4345289	SCA50_4366
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bactoprenol-linked glucose translocase	lcl|SCA50:c412997-412629	SCA50_0395
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative phage glucose translocase	lcl|SCA50:c4346589-4346215	SCA50_4367
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative IS3 transposase	lcl|SCA50:c414535-413672	SCA50_0396
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative IS3-like transposase	lcl|SCA50:c2631459-2631115	SCA50_2677
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transposase insF	lcl|SCA50:4481190-4481498	SCA50_4481
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative permease	lcl|SCA50:415842-417179	SCA50_0398
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative MFS familty transport protein	lcl|SCA50:c1596806-1595553	SCA50_1607
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	diguanylate cyclase/phosphodiesterase domain-containing protein	lcl|SCA50:431649-433223	SCA50_0413
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Protein Rtn	lcl|SCA50:2329779-2331335	SCA50_2381
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	IS903 transposase	lcl|SCA50:c534522-534361	SCA50_0513
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative transposase	lcl|SCA50:c1966698-1966558	SCA50_1988
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrogenase protein	lcl|SCA50:717197-717754	SCA50_0687
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	anaerobic dimethyl sulfoxide reductase chain B	lcl|SCA50:1029098-1029715	SCA50_0996
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative anaerobic dimethylsulfoxide reductase	lcl|SCA50:c2674967-2674338	SCA50_2701
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative anaerobic dimethyl sulfoxide reductase, subunit B	lcl|SCA50:4473554-4474180	SCA50_4472
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrogenase protein	lcl|SCA50:717754-718521	SCA50_0688
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative dimethylsulfoxide reductase	lcl|SCA50:c1606639-1605782	SCA50_1618
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	threonine-phosphate decarboxylase	lcl|SCA50:746992-748086	SCA50_0722
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	cobalamin biosynthesis protein	lcl|SCA50:c2126872-2125913	SCA50_2183
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	glutamate/aspartate transport ATP-binding protein GltL	lcl|SCA50:c768538-767813	SCA50_0741
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC-type polar amino acid transport system, ATPase component	lcl|SCA50:1733182-1733913	SCA50_1744
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tricarballylate dehydrogenase	lcl|SCA50:c795815-794412	SCA50_0771
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fumarate reductase, flavoprotein subunit	lcl|SCA50:c4505150-4503360	SCA50_4511
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fumarate hydratase class I anaerobic	lcl|SCA50:c852777-852232	SCA50_0830
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fumarase B (fumarate hydratase class I), anaerobic isozyme	lcl|SCA50:c4466223-4464577	SCA50_4466
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fumarate hydratase	lcl|SCA50:c853637-852792	SCA50_0831
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fumarase A (fumarate hydratase class I), aerobic isozyme	lcl|SCA50:1575037-1576683	SCA50_1586
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	dithiobiotin synthetase	lcl|SCA50:890393-891079	SCA50_0866
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative dithiobiotin synthetase	lcl|SCA50:1599298-1599993	SCA50_1611
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	outer membrane protein X	lcl|SCA50:926796-927311	SCA50_0902
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ail and ompX-like protein	lcl|SCA50:c4485424-4485290	SCA50_4486
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA-binding transcriptional repressor DeoR	lcl|SCA50:c962617-961859	SCA50_0932
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DeoR family transcriptional regulator	lcl|SCA50:3920500-3921285	SCA50_3950
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	anaerobic dimethyl sulfoxide reductase, subunit A	lcl|SCA50:1026643-1029087	SCA50_0995
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative anaerobic dimethylsulfoxide reductase	lcl|SCA50:c2677369-2674964	SCA50_2702
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative anaerobic dimethyl sulfoxide reductase, subunit A	lcl|SCA50:4471111-4473540	SCA50_4471
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	homologous to secreted protein sopD	lcl|SCA50:1035383-1036342	SCA50_1003
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	secreted protein in the Sop family	lcl|SCA50:3030692-3031774	SCA50_3066
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-2 prophage RecT	lcl|SCA50:c1083936-1082779	SCA50_1044
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	RecT protein	lcl|SCA50:1976455-1976778	SCA50_2000
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	RecT protein	lcl|SCA50:1976570-1976911	SCA50_2001
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-1 prophage DinI	lcl|SCA50:1093671-1093910	SCA50_1057
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA damage-inducible protein I, inhibits UmuD processing	lcl|SCA50:c1224524-1224279	SCA50_1197
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-2 prophage VmtV	lcl|SCA50:1101703-1103232	SCA50_1071
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	gifsy-1 prophage VmtV	lcl|SCA50:1330236-1330979	SCA50_1315
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-2 prophage minor tail protein	lcl|SCA50:1107066-1107398	SCA50_1075
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-1 prophage VmtM	lcl|SCA50:1334776-1335105	SCA50_1319
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	superoxide dismutase precursor	lcl|SCA50:c1108644-1108111	SCA50_1077
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	superoxide dismutase	lcl|SCA50:1548432-1548953	SCA50_1557
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-2 prophage minor tail protein	lcl|SCA50:1108734-1109429	SCA50_1078
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-1 prophage VmtL	lcl|SCA50:1335115-1335813	SCA50_1320
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-2 prophage tail fiber protein	lcl|SCA50:1114534-1116972	SCA50_1083
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	side tail fiber protein	lcl|SCA50:1340862-1343540	SCA50_1325
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Gifsy-2 prophage MsgA	lcl|SCA50:c1121770-1121504	SCA50_1090
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative virulence protein	lcl|SCA50:c1356031-1355792	SCA50_1340
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	homolog of virulence protein MsgA	lcl|SCA50:2350612-2350872	SCA50_2402
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	secreted effector protein	lcl|SCA50:c1157895-1156210	SCA50_1125
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	SopB protein	lcl|SCA50:c1346681-1345611	SCA50_1329
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	isocitrate dehydrogenase	lcl|SCA50:1301694-1302944	SCA50_1278
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	isocitrate dehydrogenase in e14 prophage, specific for NADP+	lcl|SCA50:1351780-1351956	SCA50_1335
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	periplasmic murein peptide-binding protein precurs	lcl|SCA50:c1349364-1347676	SCA50_1331
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	periplasmic murein tripeptide transport protein, also negative regulator of mulitple antibiotic resistance	lcl|SCA50:c1781437-1779536	SCA50_1792
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bifunctional succinylornithine transaminase/acetylornithine transaminase	lcl|SCA50:1417873-1419099	SCA50_1419
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bifunctional N-succinyldiaminopimelate- aminotransferase/acetylornithine transaminase protein	lcl|SCA50:c3562797-3561580	SCA50_3620
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	secretion system effector SseB	lcl|SCA50:1516315-1516905	SCA50_1513
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	enhanced serine sensitivity protein SseB	lcl|SCA50:c2688068-2687283	SCA50_2709
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrogenase	lcl|SCA50:c1643232-1642822	SCA50_1657
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	hydrogenase-1 operon protein HyaE	lcl|SCA50:1898934-1899338	SCA50_1911
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ni/Fe-hydrogenase, B-type cytochrome subunit	lcl|SCA50:c1644816-1644142	SCA50_1660
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	hydrogenase 1 b-type cytochrome subunit	lcl|SCA50:1897620-1898351	SCA50_1909
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:1967664-1968032	SCA50_1989
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative phage integrase protein	lcl|SCA50:1982358-1983098	SCA50_2007
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phage integrase family site specific recombinase	lcl|SCA50:c2634613-2634353	SCA50_2679
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	error-prone repair: component of DNA polymerase V with UmuD'	lcl|SCA50:c1968634-1968467	SCA50_1990
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA polymerase V subunit UmuC	lcl|SCA50:c2096832-2095564	SCA50_2140
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	methyl accepting chemotaxis protein II, aspartate sensor-receptor	lcl|SCA50:c2033145-2031253	SCA50_2060
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	methyl-accepting chemotaxis protein II	lcl|SCA50:c3333122-3331557	SCA50_3364
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cobalt transport ATP-binding protein CbiO	lcl|SCA50:c2116287-2115646	SCA50_2169
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC-type cobalt transport system, ATPase component	lcl|SCA50:3183226-3183903	SCA50_3209
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative glycosyl transferase	lcl|SCA50:c2196344-2195121	SCA50_2249
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative glycosyl transferase in colanic acid biosynthesis	lcl|SCA50:c2196814-2196341	SCA50_2250
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative glycohydrolase	lcl|SCA50:2252769-2253773	SCA50_2305
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ADP-ribosylglycohydrolase	lcl|SCA50:4196975-4198015	SCA50_4224
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphoserine phosphatase SerB	lcl|SCA50:2309491-2310378	SCA50_2362
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphoserine phosphatase	lcl|SCA50:4716171-4717139	SCA50_4734
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bacteriophage tail fiber assembly protein	lcl|SCA50:c2349534-2349130	SCA50_2399
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Fels-2 prophage Tfa	lcl|SCA50:c2743534-2743118	SCA50_2761
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative dehydratase protein	lcl|SCA50:c2383613-2382411	SCA50_2427
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	galactonate dehydratase	lcl|SCA50:c3956799-3955651	SCA50_3982
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	2-dehydro-3-deoxy-6-phosphogalactonate aldolase	lcl|SCA50:c3957413-3956796	SCA50_3983
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	mandelate racemase/muconate lactonizing family protein	lcl|SCA50:3961632-3962825	SCA50_3988
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c2401696-2401511	SCA50_2442
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	competence damage-inducible protein A	lcl|SCA50:c2407314-2406118	SCA50_2447
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative phosphotransferase system	lcl|SCA50:c2462913-2462470	SCA50_2501
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	L-ascorbate-specific enzyme IIA component of PTS	lcl|SCA50:4546331-4546795	SCA50_4554
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative transcriptional regulator	lcl|SCA50:2463166-2464185	SCA50_2502
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transcriptional repressor gnt-I, gntUKR (GalR/LacI familiy)	lcl|SCA50:c3655217-3654156	SCA50_3693
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	sulfate/thiosulfate transporter subunit	lcl|SCA50:c2560850-2559753	SCA50_2606
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC-type cobalt transport system, ATPase component	lcl|SCA50:c3004354-3003092	SCA50_3035
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC-type cobalt transport system, ATPase component	lcl|SCA50:3183852-3184553	SCA50_3210
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative replication protein	lcl|SCA50:c2776315-2775566	SCA50_2810
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA replication protein DnaC	lcl|SCA50:c4690519-4689782	SCA50_4700
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	invasion protein regulatory protein	lcl|SCA50:2961389-2962318	SCA50_2993
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA-binding domain-containing protein	lcl|SCA50:c4480393-4479518	SCA50_4479
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative transposase	lcl|SCA50:c3026146-3025598	SCA50_3062
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transposase	lcl|SCA50:3877738-3877896	SCA50_3907
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	L-fucose transporter	lcl|SCA50:3076599-3077915	SCA50_3106
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative L-fucose permease	lcl|SCA50:c3919235-3917919	SCA50_3948
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	6-phospho-beta-glucosidase A	lcl|SCA50:3157505-3158938	SCA50_3185
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	glycosyl hydrolase family protein	lcl|SCA50:3900395-3901777	SCA50_3929
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	GntR family transcriptional regulator	lcl|SCA50:c3196074-3195274	SCA50_3220
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA-binding transcriptional repressor UxuR	lcl|SCA50:4653410-4654183	SCA50_4662
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ferrichrome-binding periplasmic protein	lcl|SCA50:c3255272-3254220	SCA50_3282
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fructose-1,6-bisphosphatase	lcl|SCA50:c4578693-4577695	SCA50_4586
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tagatose-bisphosphate aldolase	lcl|SCA50:3370569-3371423	SCA50_3401
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative fructose-1,6-bisphosphate aldolase	lcl|SCA50:c3906366-3905506	SCA50_3936
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	PTS family galactitol-specific enzyme IIC	lcl|SCA50:3373612-3374985	SCA50_3405
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative PTS system galactitol-specific enzyme IIC component	lcl|SCA50:c3909264-3907906	SCA50_3938
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative transcriptional regulator of sugar metabolism	lcl|SCA50:3658357-3659571	SCA50_3697
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ribokinase family sugar kinase	lcl|SCA50:c3920186-3919266	SCA50_3949
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ribokinase	lcl|SCA50:4016695-4017624	SCA50_4041
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	xylulose kinase	lcl|SCA50:c3786014-3784560	SCA50_3820
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative sugar (pentulose and hexulose) kinase	lcl|SCA50:c3907913-3906429	SCA50_3937
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative inner membrane protein	lcl|SCA50:3858851-3859468	SCA50_3890
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	3-octaprenyl-4-hydroxybenzoate decarboxylase	lcl|SCA50:4103843-4105321	SCA50_4131
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative phosphotransferase system enzyme II	lcl|SCA50:c3894966-3894106	SCA50_3922
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative PTS permease	lcl|SCA50:4683605-4684453	SCA50_4695
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	glucosamine--fructose-6-phosphate aminotransferase	lcl|SCA50:c3991932-3990103	SCA50_4014
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative glucosamine-fructose-6-phosphate aminotransferase	lcl|SCA50:4684466-4685527	SCA50_4696
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	soluble pyridine nucleotide transhydrogenase	lcl|SCA50:c4265766-4264366	SCA50_4285
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative fimbrial chaparone protein	lcl|SCA50:c4735725-4735042	SCA50_4750
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	arginine decarboxylase, catabolic; inducible by acid	lcl|SCA50:c4460179-4457909	SCA50_4462
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	arginine deiminase	lcl|SCA50:c4609180-4607957	SCA50_4619
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Protein smp	lcl|SCA50:c4716054-4715410	SCA50_4732
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphoserine phosphatase	lcl|SCA50:4716022-4716171	SCA50_4733
+
+DiscRep_ALL:DUPLICATE_GENE_LOCUS::223 genes have the same locus as another gene on the same Bioseq.
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	adi	lcl|SCA50:c4609180-4607957	SCA50_4619
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	adi	lcl|SCA50:c4460179-4457909	SCA50_4462
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	amyH	lcl|SCA50:2836228-2841723	SCA50_2871
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	amyH	lcl|SCA50:2841881-2846536	SCA50_2872
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	argD	lcl|SCA50:c3562797-3561580	SCA50_3620
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	argD	lcl|SCA50:1417873-1419099	SCA50_1419
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	aroE	lcl|SCA50:c3517213-3516395	SCA50_3552
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	aroE	lcl|SCA50:c3988100-3987282	SCA50_4012
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	bglA	lcl|SCA50:3157505-3158938	SCA50_3185
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	bglA	lcl|SCA50:3900395-3901777	SCA50_3929
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	bioD	lcl|SCA50:890393-891079	SCA50_0866
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	bioD	lcl|SCA50:1599298-1599993	SCA50_1611
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cbiO	lcl|SCA50:c2116287-2115646	SCA50_2169
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cbiO	lcl|SCA50:3183226-3183903	SCA50_3209
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ccmF	lcl|SCA50:c2356573-2354642	SCA50_2406
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ccmF	lcl|SCA50:c3942599-3940668	SCA50_3972
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ccmG	lcl|SCA50:c2354645-2354088	SCA50_2405
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ccmG	lcl|SCA50:c3940671-3940114	SCA50_3971
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cheM	lcl|SCA50:c2033145-2031253	SCA50_2060
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cheM	lcl|SCA50:c3333122-3331557	SCA50_3364
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cinA	lcl|SCA50:c2401696-2401511	SCA50_2442
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cinA	lcl|SCA50:c2407314-2406118	SCA50_2447
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	citG	lcl|SCA50:c724521-723625	SCA50_0695
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	citG	lcl|SCA50:67186-68094	SCA50_0063
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cobD	lcl|SCA50:c2126872-2125913	SCA50_2183
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cobD	lcl|SCA50:746992-748086	SCA50_0722
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cybH	lcl|SCA50:c1644816-1644142	SCA50_1660
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cybH	lcl|SCA50:1897620-1898351	SCA50_1909
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cysA	lcl|SCA50:c3004354-3003092	SCA50_3035
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cysA	lcl|SCA50:3183852-3184553	SCA50_3210
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cysA	lcl|SCA50:c2560850-2559753	SCA50_2606
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cysB	lcl|SCA50:c1817205-1816231	SCA50_1830
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	cysB	lcl|SCA50:89343-89537	SCA50_0086
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ddl	lcl|SCA50:146944-147864	SCA50_0137
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ddl	lcl|SCA50:c479130-478036	SCA50_0452
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	deoR	lcl|SCA50:3920500-3921285	SCA50_3950
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	deoR	lcl|SCA50:c962617-961859	SCA50_0932
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dgoA	lcl|SCA50:3961632-3962825	SCA50_3988
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dgoA	lcl|SCA50:c3957413-3956796	SCA50_3983
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dgoA	lcl|SCA50:c2383613-2382411	SCA50_2427
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dgoA	lcl|SCA50:c3956799-3955651	SCA50_3982
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dinI	lcl|SCA50:c1224524-1224279	SCA50_1197
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dinI	lcl|SCA50:1093671-1093910	SCA50_1057
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dmsA	lcl|SCA50:1026643-1029087	SCA50_0995
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dmsA	lcl|SCA50:c2677369-2674964	SCA50_2702
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dmsA	lcl|SCA50:4471111-4473540	SCA50_4471
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dmsB	lcl|SCA50:4473554-4474180	SCA50_4472
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dmsB	lcl|SCA50:1029098-1029715	SCA50_0996
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dmsB	lcl|SCA50:717197-717754	SCA50_0687
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dmsB	lcl|SCA50:c2674967-2674338	SCA50_2701
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dnaC	lcl|SCA50:c4690519-4689782	SCA50_4700
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	dnaC	lcl|SCA50:c2776315-2775566	SCA50_2810
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fbp	lcl|SCA50:c4578693-4577695	SCA50_4586
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fbp	lcl|SCA50:c3255272-3254220	SCA50_3282
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fhuC	lcl|SCA50:862803-863579	SCA50_0840
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fhuC	lcl|SCA50:222084-222881	SCA50_0204
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	frdA	lcl|SCA50:c4505150-4503360	SCA50_4511
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	frdA	lcl|SCA50:c795815-794412	SCA50_0771
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fucP	lcl|SCA50:3076599-3077915	SCA50_3106
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fucP	lcl|SCA50:c3919235-3917919	SCA50_3948
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fumA	lcl|SCA50:1575037-1576683	SCA50_1586
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fumA	lcl|SCA50:c853637-852792	SCA50_0831
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fumB	lcl|SCA50:c852777-852232	SCA50_0830
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	fumB	lcl|SCA50:c4466223-4464577	SCA50_4466
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gatY	lcl|SCA50:3370569-3371423	SCA50_3401
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gatY	lcl|SCA50:c3906366-3905506	SCA50_3936
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gldA	lcl|SCA50:c4244190-4243093	SCA50_4269
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gldA	lcl|SCA50:c3635589-3634480	SCA50_3679
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	glmS	lcl|SCA50:4684466-4685527	SCA50_4696
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	glmS	lcl|SCA50:c3991932-3990103	SCA50_4014
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gltL	lcl|SCA50:c768538-767813	SCA50_0741
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gltL	lcl|SCA50:1733182-1733913	SCA50_1744
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gntR	lcl|SCA50:2463166-2464185	SCA50_2502
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gntR	lcl|SCA50:c3655217-3654156	SCA50_3693
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gtrA	lcl|SCA50:c412997-412629	SCA50_0395
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gtrA	lcl|SCA50:c4346589-4346215	SCA50_4367
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gtrB	lcl|SCA50:c412629-411703	SCA50_0394
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	gtrB	lcl|SCA50:c4346218-4345289	SCA50_4366
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	hemN	lcl|SCA50:4131178-4132635	SCA50_4156
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	hemN	lcl|SCA50:c4142188-4140947	SCA50_4164
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	hilD	lcl|SCA50:2961389-2962318	SCA50_2993
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	hilD	lcl|SCA50:c4480393-4479518	SCA50_4479
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	hyaE	lcl|SCA50:c1643232-1642822	SCA50_1657
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	hyaE	lcl|SCA50:1898934-1899338	SCA50_1911
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	icdA	lcl|SCA50:1301694-1302944	SCA50_1278
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	icdA	lcl|SCA50:1351780-1351956	SCA50_1335
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	insF	lcl|SCA50:c2631459-2631115	SCA50_2677
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	insF	lcl|SCA50:4481190-4481498	SCA50_4481
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	insF	lcl|SCA50:c414535-413672	SCA50_0396
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	int	lcl|SCA50:1967664-1968032	SCA50_1989
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	int	lcl|SCA50:c2634613-2634353	SCA50_2679
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	int	lcl|SCA50:1982358-1983098	SCA50_2007
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	lppB	lcl|SCA50:c1491733-1491491	SCA50_1491
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	lppB	lcl|SCA50:c1491410-1491171	SCA50_1490
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	lysR	lcl|SCA50:157384-158325	SCA50_0146
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	lysR	lcl|SCA50:3123793-3124728	SCA50_3145
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	mac	lcl|SCA50:4397781-4399169	SCA50_4423
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	mac	lcl|SCA50:c4349829-4348876	SCA50_4372
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	maf	lcl|SCA50:c1251162-1250578	SCA50_1225
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	maf	lcl|SCA50:c3485321-3484728	SCA50_3519
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	mppA	lcl|SCA50:c1349364-1347676	SCA50_1331
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	mppA	lcl|SCA50:c1781437-1779536	SCA50_1792
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	msgA	lcl|SCA50:c1121770-1121504	SCA50_1090
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	msgA	lcl|SCA50:c1356031-1355792	SCA50_1340
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	msgA	lcl|SCA50:2350612-2350872	SCA50_2402
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ninG	lcl|SCA50:c2772086-2771475	SCA50_2800
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ninG	lcl|SCA50:1095056-1095667	SCA50_1060
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	oadA	lcl|SCA50:c3465248-3463473	SCA50_3499
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	oadA	lcl|SCA50:857438-859213	SCA50_0836
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	oadA	lcl|SCA50:c60892-59117	SCA50_0055
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	oadG	lcl|SCA50:c3465506-3465264	SCA50_3500
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	oadG	lcl|SCA50:857183-857422	SCA50_0835
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ompX	lcl|SCA50:926796-927311	SCA50_0902
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ompX	lcl|SCA50:c4485424-4485290	SCA50_4486
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	pdxA	lcl|SCA50:188522-189505	SCA50_0175
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	pdxA	lcl|SCA50:c98689-97700	SCA50_0094
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	prfB	lcl|SCA50:c3149826-3148945	SCA50_3174
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	prfB	lcl|SCA50:c3151881-3150148	SCA50_3175
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ptkC	lcl|SCA50:3373612-3374985	SCA50_3405
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ptkC	lcl|SCA50:c3909264-3907906	SCA50_3938
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ptnD	lcl|SCA50:4683605-4684453	SCA50_4695
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ptnD	lcl|SCA50:c3894966-3894106	SCA50_3922
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ptxA	lcl|SCA50:c2462913-2462470	SCA50_2501
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ptxA	lcl|SCA50:4546331-4546795	SCA50_4554
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rbsk	lcl|SCA50:c1498469-1497243	SCA50_1497
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rbsK	lcl|SCA50:4016695-4017624	SCA50_4041
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rbsK	lcl|SCA50:c3920186-3919266	SCA50_3949
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rbsK	lcl|SCA50:3658357-3659571	SCA50_3697
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	recT	lcl|SCA50:2782442-2783599	SCA50_2818
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	recT	lcl|SCA50:1976570-1976911	SCA50_2001
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	recT	lcl|SCA50:1976455-1976778	SCA50_2000
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	recT	lcl|SCA50:c1083936-1082779	SCA50_1044
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	regQ	lcl|SCA50:c109652-107301	SCA50_0100
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	regQ	lcl|SCA50:1095801-1096481	SCA50_1062
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rtn	lcl|SCA50:431649-433223	SCA50_0413
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rtn	lcl|SCA50:2329779-2331335	SCA50_2381
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rusA	lcl|SCA50:389632-390027	SCA50_0368
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	rusA	lcl|SCA50:1313351-1313740	SCA50_1291
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sapA	lcl|SCA50:c354615-353896	SCA50_0325
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sapA	lcl|SCA50:1791480-1793153	SCA50_1805
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	serB	lcl|SCA50:2309491-2310378	SCA50_2362
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	serB	lcl|SCA50:4716171-4717139	SCA50_4734
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	smp	lcl|SCA50:4716022-4716171	SCA50_4733
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	smp	lcl|SCA50:c4716054-4715410	SCA50_4732
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sodC	lcl|SCA50:1548432-1548953	SCA50_1557
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sodC	lcl|SCA50:c1108644-1108111	SCA50_1077
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sopB	lcl|SCA50:c1346681-1345611	SCA50_1329
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sopB	lcl|SCA50:c1157895-1156210	SCA50_1125
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sopD	lcl|SCA50:3030692-3031774	SCA50_3066
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sopD	lcl|SCA50:1035383-1036342	SCA50_1003
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sseB	lcl|SCA50:1516315-1516905	SCA50_1513
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sseB	lcl|SCA50:c2688068-2687283	SCA50_2709
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stbD	lcl|SCA50:c425569-424244	SCA50_0406
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stbD	lcl|SCA50:1968651-1969175	SCA50_1991
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stea	lcl|SCA50:c1677981-1677349	SCA50_1690
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	steA	lcl|SCA50:3045482-3046069	SCA50_3079
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stf	lcl|SCA50:1340862-1343540	SCA50_1325
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stf	lcl|SCA50:1114534-1116972	SCA50_1083
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stfD	lcl|SCA50:3048861-3049634	SCA50_3081
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stfD	lcl|SCA50:230065-230838	SCA50_0209
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stfE	lcl|SCA50:3049606-3050160	SCA50_3082
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stfE	lcl|SCA50:230857-231369	SCA50_0210
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stfF	lcl|SCA50:3050160-3050645	SCA50_3083
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	stfF	lcl|SCA50:231366-231842	SCA50_0211
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sthA	lcl|SCA50:c4735725-4735042	SCA50_4750
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	sthA	lcl|SCA50:c4265766-4264366	SCA50_4285
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	tfa	lcl|SCA50:c2743534-2743118	SCA50_2761
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	tfa	lcl|SCA50:c2349534-2349130	SCA50_2399
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	tnp	lcl|SCA50:c1966698-1966558	SCA50_1988
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	tnp	lcl|SCA50:c534522-534361	SCA50_0513
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	tnpA	lcl|SCA50:c3026146-3025598	SCA50_3062
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	tnpA	lcl|SCA50:c4483486-4483307	SCA50_4484
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	tnpA	lcl|SCA50:3877738-3877896	SCA50_3907
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ulaA	lcl|SCA50:c2462102-2460705	SCA50_2499
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ulaA	lcl|SCA50:4544603-4546000	SCA50_4552
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ulaA	lcl|SCA50:979641-980984	SCA50_0951
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	umuC	lcl|SCA50:c2096832-2095564	SCA50_2140
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	umuC	lcl|SCA50:c1968634-1968467	SCA50_1990
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	uxuR	lcl|SCA50:c3196074-3195274	SCA50_3220
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	uxuR	lcl|SCA50:4653410-4654183	SCA50_4662
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	vmtL	lcl|SCA50:1335115-1335813	SCA50_1320
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	vmtL	lcl|SCA50:1108734-1109429	SCA50_1078
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	vmtM	lcl|SCA50:1334776-1335105	SCA50_1319
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	vmtM	lcl|SCA50:1107066-1107398	SCA50_1075
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	vmtV	lcl|SCA50:1330236-1330979	SCA50_1315
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	vmtV	lcl|SCA50:1101703-1103232	SCA50_1071
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	wcaI	lcl|SCA50:c2196814-2196341	SCA50_2250
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	wcaI	lcl|SCA50:c2196344-2195121	SCA50_2249
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	xylB	lcl|SCA50:c3907913-3906429	SCA50_3937
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	xylB	lcl|SCA50:c3786014-3784560	SCA50_3820
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ybdO	lcl|SCA50:c710161-709259	SCA50_0681
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ybdO	lcl|SCA50:15015-15962	SCA50_0014
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ybeQ	lcl|SCA50:c759285-758290	SCA50_0733
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ybeQ	lcl|SCA50:c1862928-1861399	SCA50_1876
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yciG	lcl|SCA50:1624872-1625105	SCA50_1635
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yciG	lcl|SCA50:1833383-1833565	SCA50_1844
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yegU	lcl|SCA50:2252769-2253773	SCA50_2305
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yegU	lcl|SCA50:4196975-4198015	SCA50_4224
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yfaX	lcl|SCA50:c2405868-2405086	SCA50_2446
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yfaX	lcl|SCA50:c3640723-3639968	SCA50_3683
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yfcI	lcl|SCA50:c3892088-3891159	SCA50_3919
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yfcI	lcl|SCA50:3609145-3610059	SCA50_3659
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yigC	lcl|SCA50:4103843-4105321	SCA50_4131
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yigC	lcl|SCA50:3858851-3859468	SCA50_3890
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yihG	lcl|SCA50:4126222-4129008	SCA50_4151
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yihG	lcl|SCA50:c4125834-4124926	SCA50_4150
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yiiZ	lcl|SCA50:3281047-3282030	SCA50_3313
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yiiZ	lcl|SCA50:c4185268-4184285	SCA50_4211
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:3307917-3308600	SCA50_3341
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:3038536-3039219	SCA50_3073
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:c3009775-3009092	SCA50_3042
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:c1476317-1475634	SCA50_1476
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:c2521945-2521262	SCA50_2563
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:1258449-1259132	SCA50_1236
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:c4667630-4666947	SCA50_4675
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:4225724-4226407	SCA50_4254
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:1049905-1050588	SCA50_1015
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:1999802-2000485	SCA50_2027
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	yis	lcl|SCA50:3776315-3776998	SCA50_3810
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ynfH	lcl|SCA50:c1606639-1605782	SCA50_1618
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ynfH	lcl|SCA50:717754-718521	SCA50_0688
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ynfM	lcl|SCA50:c1596806-1595553	SCA50_1607
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	ynfM	lcl|SCA50:415842-417179	SCA50_0398
+
+DiscRep_ALL:OVERLAPPING_CDS::69 coding regions overlap another coding region with a similar or identical name.
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c302634-301639	SCA50_0278
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c304514-302631	SCA50_0279
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c376578-376117	SCA50_0346
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c377096-376575	SCA50_0347
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c377326-377093	SCA50_0348
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative multidrug transporter membrane\ATP-binding components	lcl|SCA50:561124-562896	SCA50_0537
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative multidrug transporter membrane\ATP-binding components	lcl|SCA50:562889-564670	SCA50_0538
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrogenase protein	lcl|SCA50:717197-717754	SCA50_0687
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrogenase protein	lcl|SCA50:717754-718521	SCA50_0688
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1089051-1088119	SCA50_1049
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1089521-1089048	SCA50_1050
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Tail assembly protein	lcl|SCA50:1109439-1110176	SCA50_1079
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Tail Assembly Protein	lcl|SCA50:1110113-1110778	SCA50_1080
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	4-hydroxyphenylacetate catabolism	lcl|SCA50:1165012-1166301	SCA50_1133
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	4-hydroxyphenylacetate catabolism	lcl|SCA50:1166298-1167764	SCA50_1134
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1961457-1961332	SCA50_1976
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1961594-1961430	SCA50_1977
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	RecT protein	lcl|SCA50:1976455-1976778	SCA50_2000
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	RecT protein	lcl|SCA50:1976570-1976911	SCA50_2001
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: diol dehydratase reactivation	lcl|SCA50:2135306-2137138	SCA50_2192
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: diol dehydratase reactivation	lcl|SCA50:2137128-2137478	SCA50_2193
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2144547-2144876	SCA50_2203
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2144857-2145000	SCA50_2205
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Glycosyl transferase	lcl|SCA50:c2180759-2179527	SCA50_2236
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Glycosyl transferase	lcl|SCA50:c2181720-2180713	SCA50_2237
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative binding-protein-dependent transporter	lcl|SCA50:2333257-2334351	SCA50_2383
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative binding-protein-dependent transporter	lcl|SCA50:2334351-2335376	SCA50_2384
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphoglycerate transporter	lcl|SCA50:c2516287-2514281	SCA50_2557
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphoglycerate transporter	lcl|SCA50:c2517594-2516284	SCA50_2558
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ethanolamine utilization protein	lcl|SCA50:c2584013-2583324	SCA50_2634
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ethanolamine utilization protein	lcl|SCA50:c2584479-2583991	SCA50_2635
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:2630589-2630780	SCA50_2675
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:2630780-2631094	SCA50_2676
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative anaerobic dimethylsulfoxide reductase	lcl|SCA50:c2674967-2674338	SCA50_2701
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative anaerobic dimethylsulfoxide reductase	lcl|SCA50:c2677369-2674964	SCA50_2702
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrogenase expression/formation protein	lcl|SCA50:2945799-2946920	SCA50_2976
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrogenase expression/formation protein	lcl|SCA50:2946917-2947927	SCA50_2977
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	iron transporter: fur regulated	lcl|SCA50:2950812-2951729	SCA50_2980
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	iron transporter: fur regulated	lcl|SCA50:2951726-2952547	SCA50_2981
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative permease	lcl|SCA50:2952544-2953404	SCA50_2982
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative permease	lcl|SCA50:2953395-2954243	SCA50_2983
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c3023787-3023137	SCA50_3059
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c3024515-3023769	SCA50_3060
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c3134938-3134180	SCA50_3156
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c3135431-3134925	SCA50_3157
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c3239148-3238768	SCA50_3269
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c3239633-3239148	SCA50_3270
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative cytoplasmic protein	lcl|SCA50:3265800-3266210	SCA50_3296
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative cytoplasmic protein	lcl|SCA50:3266197-3266601	SCA50_3297
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Alpha-ketoglutarate permease	lcl|SCA50:c3713976-3712861	SCA50_3749
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Alpha-ketoglutarate permease	lcl|SCA50:c3714113-3713949	SCA50_3750
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	dipeptide transporter ATP-binding subunit	lcl|SCA50:c3749485-3748472	SCA50_3781
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	dipeptide transporter ATP-binding subunit	lcl|SCA50:c3750465-3749482	SCA50_3782
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative inner membrane protein	lcl|SCA50:c3932410-3932048	SCA50_3961
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative inner membrane protein	lcl|SCA50:c3932747-3932400	SCA50_3962
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c4339209-4338754	SCA50_4358
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c4339820-4339206	SCA50_4359
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c4352408-4352280	SCA50_4374
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c4352685-4352368	SCA50_4375
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c4354875-4354678	SCA50_4378
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:c4355327-4354872	SCA50_4379
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:4396503-4396643	SCA50_4420
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:4396580-4396744	SCA50_4421
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:4583469-4583831	SCA50_4593
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative cytoplasmic protein	lcl|SCA50:4583807-4584133	SCA50_4594
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative permease	lcl|SCA50:4620987-4622087	SCA50_4633
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative permease	lcl|SCA50:4622087-4623169	SCA50_4634
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphoserine phosphatase	lcl|SCA50:4716022-4716171	SCA50_4733
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphoserine phosphatase	lcl|SCA50:4716171-4717139	SCA50_4734
+
+DiscRep_ALL:CONTAINED_CDS::47 coding regions are completely contained in another coding region, but on the opposite strand.
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative membrane protein	lcl|SCA50:c32994-32545	SCA50_0030
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:32632-32748	SCA50_0031
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	dephospho-CoA kinase	lcl|SCA50:c159886-159266	SCA50_0149
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:159728-159868	SCA50_0150
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	gene 60 protein	lcl|SCA50:391363-391686	SCA50_0373
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c391683-391561	SCA50_0374
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1252499-1251867	SCA50_1227
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	50S ribosomal protein L32	lcl|SCA50:1251933-1252106	SCA50_1228
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative antirepressor	lcl|SCA50:1308701-1311181	SCA50_1286
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1309347-1309039	SCA50_1287
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:c1309567-1309337	SCA50_1288
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	side tail fiber protein	lcl|SCA50:1340862-1343540	SCA50_1325
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1343529-1343266	SCA50_1326
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cell wall-associated hydrolase	lcl|SCA50:c1543356-1542502	SCA50_1547
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:1543073-1543210	SCA50_1548
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative MFS familty transport protein	lcl|SCA50:c1596806-1595553	SCA50_1607
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:1596448-1596642	SCA50_1608
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	cardiolipin synthetase	lcl|SCA50:1840686-1842146	SCA50_1856
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:c1840816-1840697	SCA50_1857
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:1891275-1891616	SCA50_1903
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1891499-1891374	SCA50_1904
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:2104882-2105016	SCA50_2151
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	UPF0234 protein yajQ	lcl|SCA50:c2105013-2104909	SCA50_2152
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c2145006-2144800	SCA50_2204
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2144857-2145000	SCA50_2205
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Fels-2 prophage Pin	lcl|SCA50:c2744953-2743541	SCA50_2762
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:2744498-2744839	SCA50_2763
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:3030454-3030705	SCA50_3064
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c3030609-3030475	SCA50_3065
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative inner membrane protein	lcl|SCA50:c3199814-3199515	SCA50_3225
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:3199554-3199721	SCA50_3226
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:3536271-3536678	SCA50_3585
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	50S ribosomal protein L22	lcl|SCA50:c3536621-3536289	SCA50_3586
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c3757434-3757222	SCA50_3788
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:3757256-3757417	SCA50_3789
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	NAD-dependent DNA ligase LigB	lcl|SCA50:c3861150-3859465	SCA50_3891
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:3859486-3859611	SCA50_3892
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ribonuclease P	lcl|SCA50:3970877-3971203	SCA50_3995
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c3971077-3970880	SCA50_3996
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative cytoplasmic protein	lcl|SCA50:4169378-4170478	SCA50_4192
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:c4169579-4169457	SCA50_4193
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative phage glucose translocase	lcl|SCA50:c4346589-4346215	SCA50_4367
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:4346237-4346380	SCA50_4368
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	replication protein	lcl|SCA50:c4634071-4633196	SCA50_4644
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:4633213-4633383	SCA50_4645
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein yjjJ	lcl|SCA50:4713045-4714355	SCA50_4729
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c4713236-4713084	SCA50_4730
+
+DiscRep_ALL:RNA_CDS_OVERLAP::9 coding regions overlap RNA features
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:778980-779123	SCA50_0756
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Gln	lcl|SCA50:c779078-779004	SCA50_0757
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Hypothetical Protein	lcl|SCA50:778980-779123	SCA50_0756
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Leu	lcl|SCA50:c779186-779102	SCA50_0758
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1008791-1008441	SCA50_0979
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Ser	lcl|SCA50:c1008830-1008743	SCA50_0980
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:c1371995-1371828	SCA50_1362
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Arg	lcl|SCA50:1371968-1372044	SCA50_1363
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:2051721-2052071	SCA50_2083
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Leu	lcl|SCA50:c2051829-2051743	SCA50_2084
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:2051721-2052071	SCA50_2083
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Cys	lcl|SCA50:c2051914-2051841	SCA50_2085
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:2051721-2052071	SCA50_2083
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Gly	lcl|SCA50:c2052042-2051967	SCA50_2086
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative transposase	lcl|SCA50:c3877357-3876851	SCA50_3905
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Sec	lcl|SCA50:3876888-3876978	SCA50_3906
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein	lcl|SCA50:4280263-4280379	SCA50_4301
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:tRNA	Gly	lcl|SCA50:4280365-4280439	SCA50_4302
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::265 product_names contain 'suspect phrase or characters'
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Phage P22 tailspike protein, head-binding	lcl|SCA50:408223-409983	SCA50_0392
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Cyclic nucleotide-binding	lcl|SCA50:472680-473303	SCA50_0446
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	NAD(P)-binding	lcl|SCA50:c969509-967824	SCA50_0938
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	NAD(P)-binding	lcl|SCA50:1147891-1148307	SCA50_1112
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Phosphopantetheine-binding	lcl|SCA50:1256200-1256436	SCA50_1233
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	6-phosphogluconate dehydrogenase, NAD-binding	lcl|SCA50:c2163276-2162452	SCA50_2221
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Lambda repressor-like, DNA-binding	lcl|SCA50:c2670456-2669452	SCA50_2696
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative nucleotide binding	lcl|SCA50:3068575-3069939	SCA50_3099
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Semialdehyde dehydrogenase, NAD-binding	lcl|SCA50:c3382368-3381700	SCA50_3414
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Oxidoreductase, molybdopterin binding	lcl|SCA50:3491519-3492523	SCA50_3525
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	NAD(P)-binding	lcl|SCA50:c3934850-3933189	SCA50_3964
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Glycoside hydrolase-type carbohydrate-binding	lcl|SCA50:c4151693-4150836	SCA50_4172
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Lambda repressor-like, DNA-binding	lcl|SCA50:4171850-4172464	SCA50_4196
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	4Fe-4S ferredoxin, iron-sulphur binding	lcl|SCA50:c4706637-4705774	SCA50_4723
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	KilA-N domain	lcl|SCA50:1313757-1314617	SCA50_1292
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DHBP synthase RibB-like alpha/beta domain	lcl|SCA50:c1825225-1824605	SCA50_1837
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fused phosphoenolpyruvate-protein phosphotransferase PtsP/GAF domain	lcl|SCA50:c3111874-3109628	SCA50_3134
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ferredoxin reductase-type FAD-binding domain	lcl|SCA50:c3330681-3329914	SCA50_3362
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	isoprenoid biosynthesis protein with amidotransferase-like domain	lcl|SCA50:c3433693-3433040	SCA50_3474
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNase I-like	lcl|SCA50:294127-294927	SCA50_0269
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Extensin-like	lcl|SCA50:479208-479921	SCA50_0453
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Class I glutamine amidotransferase-like	lcl|SCA50:c531231-530641	SCA50_0509
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	YcaO-like	lcl|SCA50:c1041857-1040022	SCA50_1006
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Protein kinase-like	lcl|SCA50:1058253-1059146	SCA50_1025
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ribosomal protein S5 domain 2-like	lcl|SCA50:c1138236-1136476	SCA50_1102
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Beta-lactamase-like	lcl|SCA50:1173113-1174051	SCA50_1141
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Rhodanese-like	lcl|SCA50:1219839-1220891	SCA50_1190
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Lipid/polyisoprenoid-binding, YceI-like	lcl|SCA50:c1221518-1220943	SCA50_1191
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	minor tail protein Z-like	lcl|SCA50:1329249-1329827	SCA50_1313
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tail assembly protein I-like	lcl|SCA50:1336596-1337102	SCA50_1322
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Alcohol dehydrogenase GroES-like	lcl|SCA50:1397969-1399045	SCA50_1400
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Alcohol dehydrogenase GroES-like	lcl|SCA50:1400462-1401505	SCA50_1402
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Adenine nucleotide alpha hydrolases-like	lcl|SCA50:1754007-1754441	SCA50_1761
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ferritin/ribonucleotide reductase-like	lcl|SCA50:1834232-1834738	SCA50_1846
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ferritin/ribonucleotide reductase-like	lcl|SCA50:1834758-1835636	SCA50_1847
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Copper resistance protein CopC/internalin, immunoglobulin-like	lcl|SCA50:c1985092-1984718	SCA50_2011
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Integrase, N-terminal zinc-binding domain-like	lcl|SCA50:c2011023-2010283	SCA50_2040
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	SirA-like	lcl|SCA50:2070681-2070914	SCA50_2109
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Thioredoxin-like	lcl|SCA50:2602596-2602952	SCA50_2648
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Restriction endonuclease, type II-like	lcl|SCA50:3380041-3380436	SCA50_3410
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Alcohol dehydrogenase GroES-like	lcl|SCA50:3490433-3491407	SCA50_3524
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	YheO-like	lcl|SCA50:c3547734-3547000	SCA50_3604
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	SirA-like	lcl|SCA50:c3689553-3689308	SCA50_3729
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Butirosin biosynthesis, BtrG-like	lcl|SCA50:4573763-4574107	SCA50_4582
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	SEC-C motif	lcl|SCA50:c2634258-2631880	SCA50_2678
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Duplicated hybrid motif	lcl|SCA50:3827629-3828912	SCA50_3857
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	FOSMIDOMYCIN RESISTANCE-RELATED	lcl|SCA50:c966919-965708	SCA50_0936
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	BAX INHIBITOR-RELATED	lcl|SCA50:c1152908-1152249	SCA50_1119
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Multiple antibiotic resistance (MarC)-related	lcl|SCA50:c1850470-1849823	SCA50_1865
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Mammalian cell entry related	lcl|SCA50:1955691-1958366	SCA50_1971
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Carboxylyase-related	lcl|SCA50:3007419-3008846	SCA50_3040
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ribonuclease BN-related	lcl|SCA50:3728921-3729949	SCA50_3765
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	PsiF repeat	lcl|SCA50:482211-482531	SCA50_0456
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ARM repeat	lcl|SCA50:c2239739-2238873	SCA50_2288
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Pentapeptide repeat	lcl|SCA50:c2872565-2871513	SCA50_2892
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	gene 60 protein	lcl|SCA50:391363-391686	SCA50_0373
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	negative modulator of initiation of replication, inhibits open complex formation, mutation in gene alters cell membrane	lcl|SCA50:799718-800293	SCA50_0777
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ssrAB activated gene	lcl|SCA50:1687605-1688930	SCA50_1700
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ssrAB activated gene: coiled-coil structure	lcl|SCA50:1691913-1694057	SCA50_1702
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	cryptic aminoglycoside resistance gene	lcl|SCA50:1715208-1715645	SCA50_1727
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	PhoPQ-activated gene; integral membrane protein	lcl|SCA50:1969966-1970880	SCA50_1992
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphomannomutase in colanic acid gene cluster	lcl|SCA50:c2178097-2176727	SCA50_2234
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphomannomutase in colanic acid gene cluster	lcl|SCA50:c2179530-2178112	SCA50_2235
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative glycosyl transferase in colanic acid gene cluster	lcl|SCA50:c2187874-2186654	SCA50_2242
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	phosphomannomutase in colanic acid gene cluster	lcl|SCA50:c2193571-2192201	SCA50_2247
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	H inversion: regulation of flagellar gene expression by site-specific inversion of DNA	lcl|SCA50:c2860395-2859823	SCA50_2884
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Z4398 gene product	lcl|SCA50:c3303552-3303376	SCA50_3336
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Z3940 gene product	lcl|SCA50:4634627-4635004	SCA50_4646
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	sensory histidine kinase in two-component regulatory system with DpiA, regulation of cit operon and plasmid inheritance genes	lcl|SCA50:729246-730907	SCA50_0702
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative peptide maturation protein, maturation of antibiotic MccB17, see tld genes	lcl|SCA50:4580995-4582347	SCA50_4589
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Streptomyces cyclase/dehydrase	lcl|SCA50:c2834883-2834407	SCA50_2869
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Propanediol utilisation protein	lcl|SCA50:2138258-2138890	SCA50_2196
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ethanolamine utilisation protein, EutH	lcl|SCA50:c2577224-2575998	SCA50_2626
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Thioredoxin-like fold	lcl|SCA50:31274-32119	SCA50_0028
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative Zn-dependent hydrolases of the beta-lactamase fold	lcl|SCA50:c4544241-4543177	SCA50_4551
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:c513650-513111	SCA50_0489
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:c545053-544475	SCA50_0522
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:567723-568292	SCA50_0543
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:729054-729236	SCA50_0701
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	CATATPASE	lcl|SCA50:c876313-875495	SCA50_0853
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	FOSMIDOMYCIN RESISTANCE-RELATED	lcl|SCA50:c966919-965708	SCA50_0936
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	BAX INHIBITOR-RELATED	lcl|SCA50:c1152908-1152249	SCA50_1119
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:1316433-1316852	SCA50_1295
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	SENSORY TRANSDUCTION HISTIDINE KINASE (DHKB)	lcl|SCA50:1804357-1806348	SCA50_1817
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	FUMARYLACETOACETATE HYDROLASE	lcl|SCA50:c1921484-1920825	SCA50_1933
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	TRANSPOSABLE ELEMENT	lcl|SCA50:2100438-2100686	SCA50_2147
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:c2566330-2565755	SCA50_2612
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ZINC_PROTEASE	lcl|SCA50:c2607235-2606372	SCA50_2652
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ZINC_PROTEASE	lcl|SCA50:2768389-2769075	SCA50_2796
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	METHYLTRANSFERASE	lcl|SCA50:c2791441-2790578	SCA50_2826
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DTW	lcl|SCA50:2797742-2798422	SCA50_2834
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:2833623-2833961	SCA50_2867
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	INTEGRASE	lcl|SCA50:2853409-2854248	SCA50_2879
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:c3085482-3085255	SCA50_3114
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:3690461-3691018	SCA50_3731
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	TRANSMEMBRANE PROTEIN	lcl|SCA50:3692371-3693420	SCA50_3733
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:c3773549-3772839	SCA50_3805
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	LIPOPROTEIN	lcl|SCA50:4557113-4558501	SCA50_4569
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bacteriophage ST104 protein Kil	lcl|SCA50:c380897-380709	SCA50_0355
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	proteolytic subunit of clpA-clpP ATP-dependent serine protease, heat shock protein F215	lcl|SCA50:547460-548191	SCA50_0525
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Conserved hypothetical protein CHP03214, putative allantoin-urate catabolism protein	lcl|SCA50:c633077-632292	SCA50_0604
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative replication protein O of prophage CP-933X	lcl|SCA50:1090812-1091648	SCA50_1053
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative replication protein O of prophage CP-933X	lcl|SCA50:1091645-1092340	SCA50_1054
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	23S rRNA m(2)G2445 methyltransferase	lcl|SCA50:1127865-1129973	SCA50_1095
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Transcription factor jumonjiorf2138	lcl|SCA50:c1294568-1293417	SCA50_1269
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein STY2382	lcl|SCA50:c2263416-2263135	SCA50_2315
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Phage-related protein HI1409	lcl|SCA50:c2763822-2762353	SCA50_2789
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative uncharacterized protein STY3136	lcl|SCA50:c3106530-3106123	SCA50_3129
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Predicted pyridoxal phosphate-dependent enzyme, YBL036C type	lcl|SCA50:3209123-3209827	SCA50_3237
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Z4398 gene product	lcl|SCA50:c3303552-3303376	SCA50_3336
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	COG0051: Ribosomal protein S10	lcl|SCA50:c3539658-3539347	SCA50_3592
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Z3940 gene product	lcl|SCA50:4634627-4635004	SCA50_4646
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	16S ribosomal RNA m2G1207 methyltransferase	lcl|SCA50:c4699154-4698126	SCA50_4714
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Glycyl radical enzyme, HI0521, predicted	lcl|SCA50:c4708159-4706609	SCA50_4724
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative citrate lyase synthetase (citrate (pro-3S)-lyase ligase)	lcl|SCA50:62894-63937	SCA50_0058
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative citrate lyase beta chain (acyl lyase subunit)	lcl|SCA50:64257-65126	SCA50_0060
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	UDP-3-O-(3-hydroxymyristoyl)-glucosaminen-acyltransferase	lcl|SCA50:261399-262424	SCA50_0238
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC superfamily (atp_bind) transport system	lcl|SCA50:c284040-283009	SCA50_0258
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative drug efflux protein (perhaps for chloramphenicol)	lcl|SCA50:292820-293995	SCA50_0268
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	aminoacyl-histidine dipeptidase (peptidase D)	lcl|SCA50:c366391-364934	SCA50_0335
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	regulatory protein Cro (antirepressor)	lcl|SCA50:383603-383818	SCA50_0361
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative 3-isopropylmalate isomerase (dehydratase), subunit with LeuC	lcl|SCA50:418734-419360	SCA50_0400
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA restriction (DNA helicase)	lcl|SCA50:449840-452812	SCA50_0429
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bifunctional diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase	lcl|SCA50:514255-515358	SCA50_0492
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	peptidyl-prolyl cis-trans isomerase (rotamase D)	lcl|SCA50:553026-554897	SCA50_0529
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative transcriptional regulator (AsnC familiy)	lcl|SCA50:560625-561083	SCA50_0536
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	major type 1 subunit fimbrin (pilin)	lcl|SCA50:648395-649018	SCA50_0621
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	2'-(5''-triphosphoribosyl)-3'-dephospho-CoA:apo- citrate lyase	lcl|SCA50:c725044-724493	SCA50_0696
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	citrate lyase beta chain (acyl lyase subunit)	lcl|SCA50:c727495-726587	SCA50_0698
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	MiaB protein (putative tRNA-thiotransferase (or tRNA-methylthiotransferase))	lcl|SCA50:c777155-775689	SCA50_0750
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	3-deoxy-D-arabinoheptulosonate-7-phosphate synthase (DAHP synthetase, phenylalanine repressible)	lcl|SCA50:850957-852138	SCA50_0829
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Glucocorticoid receptor-like (DNA-binding domain)	lcl|SCA50:c918534-918268	SCA50_0893
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative dehydrogenase (flavoproteins)	lcl|SCA50:955409-957094	SCA50_0926
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	outer membrane protein 1a (IA;b;f), porin	lcl|SCA50:c1073516-1072419	SCA50_1035
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	3-ketoacyl-(acyl-carrier-protein) reductase	lcl|SCA50:1255310-1256044	SCA50_1232
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase	lcl|SCA50:c1300088-1298982	SCA50_1274
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	prophage lambda integrase (Int(lambda))	lcl|SCA50:c1304183-1303056	SCA50_1279
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Mechanosensitive channel protein MscS (YggB)	lcl|SCA50:c1371439-1370306	SCA50_1360
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	pyrimidine (deoxy)nucleoside triphosphate pyrophosphohydrolase	lcl|SCA50:c1416548-1416132	SCA50_1416
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fumarase A (fumarate hydratase class I), aerobic isozyme	lcl|SCA50:1575037-1576683	SCA50_1586
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	NAD(P)(+) transhydrogenase (AB-specific), alpha subunit	lcl|SCA50:1588548-1590077	SCA50_1598
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transcriptional regulation of aerobic, anaerobic respiration, osmotic balance (CRP family)	lcl|SCA50:1762233-1762985	SCA50_1771
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative chloromuconate cycloisomerase (muconate cycloisomerase)	lcl|SCA50:c1783295-1782330	SCA50_1794
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	thiosulfate:cyanide sulfurtransferase (rhodanese)	lcl|SCA50:c1788613-1788299	SCA50_1799
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	SENSORY TRANSDUCTION HISTIDINE KINASE (DHKB)	lcl|SCA50:1804357-1806348	SCA50_1817
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Multiple antibiotic resistance (MarC)-related	lcl|SCA50:c1850470-1849823	SCA50_1865
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	nitrate reductase 1, FeS (beta) subunit	lcl|SCA50:c1866089-1864554	SCA50_1880
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	lipid A biosynthesis (KDO)2-(lauroyl)-lipid IVA acyltransferase	lcl|SCA50:c2001541-2000486	SCA50_2028
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ABC superfamily (atp_bind) high affinity Zn transport protein	lcl|SCA50:2003929-2004684	SCA50_2031
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tRNA (cmo5U34)-methyltransferase	lcl|SCA50:2015575-2016318	SCA50_2046
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tRNA (mo5U34)-methyltransferase	lcl|SCA50:2016315-2017286	SCA50_2047
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	N-(5'-phospho-L-ribosyl-formimino)-5-amino-1-(5'-phosphoribosyl)-4-imidazolecarboxamide isomerase	lcl|SCA50:2168662-2169399	SCA50_2227
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative membrane carboxypeptidase (penicillin-binding protein)	lcl|SCA50:2558104-2558643	SCA50_2603
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	cysteine synthase B (O-acetylserine sulfhydrolase B)	lcl|SCA50:c2559685-2558774	SCA50_2605
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	paral putative heatshock protein (Hsp70)	lcl|SCA50:c2579360-2578521	SCA50_2628
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative arsenate reductase (arsenical pump modifier)	lcl|SCA50:2618142-2618501	SCA50_2663
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	host colonisation factor (ShdA)	lcl|SCA50:c2645751-2639704	SCA50_2684
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	flavohemoprotein (hemoglobin-like protein)	lcl|SCA50:2707238-2708428	SCA50_2731
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Putative transcriptional regulator of two-component regulator protein (EBP familiiy)	lcl|SCA50:c2718217-2717387	SCA50_2738
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Senescence marker protein-30 (SMP-30)	lcl|SCA50:c2818895-2817987	SCA50_2851
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tRNA (guanine-N(1)-)-methyltransferase	lcl|SCA50:c2824637-2823870	SCA50_2857
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	hydrogenase-3, iron-sulfur subunit (part of FHL complex)	lcl|SCA50:c2943422-2942814	SCA50_2970
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transcriptional regulator HilA (Protein iagA)	lcl|SCA50:2963409-2965070	SCA50_2994
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	secretory protein (associated with virulence)	lcl|SCA50:c2984010-2981953	SCA50_3014
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	L-serine dehydratase (L-threonine deaminase 2)	lcl|SCA50:3071852-3073219	SCA50_3101
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	outer membrane protein (associated with virulence)	lcl|SCA50:c3142516-3141980	SCA50_3163
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	galactose-proton symport (galactose transporter)	lcl|SCA50:3201517-3202911	SCA50_3228
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tRNA (guanine-N(7)-)-methyltransferase	lcl|SCA50:c3216710-3215991	SCA50_3247
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	NADPH specific quinone oxidoreductase (drug modulator)	lcl|SCA50:3292360-3292941	SCA50_3323
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	rRNA (guanine-N2-)-methyltransferase	lcl|SCA50:c3340245-3339109	SCA50_3369
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Barstar (barnase inhibitor)	lcl|SCA50:c3473246-3472974	SCA50_3510
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transcriptional repressor for envCD (acrEF) (TetR/AcrR family)	lcl|SCA50:c3504112-3503450	SCA50_3537
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	peptidyl-prolyl cis-trans isomerase A (rotamase A)	lcl|SCA50:c3564918-3564346	SCA50_3623
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transpeptidase of penicillin-binding protein 1a (peptidoglycan synthetase)	lcl|SCA50:3588828-3591380	SCA50_3644
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transcriptional repressor gnt-I, gntUKR (GalR/LacI familiy)	lcl|SCA50:c3655217-3654156	SCA50_3693
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative transcriptional regulator (LuxR/UhpA familiy)	lcl|SCA50:c3727273-3726716	SCA50_3762
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	aldehyde dehydrogenase B (lactaldehyde dehydrogenase)	lcl|SCA50:c3798106-3796568	SCA50_3831
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	UDP-D-glucose:(galactosyl)lipopolysaccharide glucosyltransferase	lcl|SCA50:c3841807-3840797	SCA50_3869
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	UDP-D-galactose:(glucosyl)lipopolysaccharide- alpha-1, 3-D-galactosyltransferase	lcl|SCA50:c3842838-3841825	SCA50_3870
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	UDP-D-galactose:(glucosyl)lipopolysaccharide-1, 6-D-galactosyltransferase	lcl|SCA50:c3843923-3842844	SCA50_3871
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative sugar (pentulose and hexulose) kinase	lcl|SCA50:c3907913-3906429	SCA50_3937
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	autoinducer-2 (AI-2) kinase	lcl|SCA50:c4201255-4199663	SCA50_4228
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	autoinducer-2 (AI-2) modifying protein LsrG	lcl|SCA50:4208125-4208454	SCA50_4235
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	tRNA (uracil-5-)-methyltransferase	lcl|SCA50:c4268122-4267022	SCA50_4288
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ABC superfamily (bind_prot) maltose transport protein, substrate recognition for transport and chemotaxis	lcl|SCA50:c4369813-4368623	SCA50_4393
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	fumarase B (fumarate hydratase class I), anaerobic isozyme	lcl|SCA50:c4466223-4464577	SCA50_4466
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	elongation factor P (EF-P)	lcl|SCA50:4498989-4499555	SCA50_4502
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	23S rRNA (guanosine-2'-O-)-methyltransferase	lcl|SCA50:4532972-4533703	SCA50_4538
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hexulose phosphate synthase (arabino hexulose phosphate formaldehyde lyase)	lcl|SCA50:4546809-4547459	SCA50_4555
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	FKBP-type 22KD peptidyl-prolyl cis-trans isomerase (rotamase)	lcl|SCA50:4553260-4553922	SCA50_4566
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative selenocysteine synthase [L-seryl-tRNA(Ser) selenium transferase]	lcl|SCA50:4586764-4587882	SCA50_4598
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	trehalose(maltose)-specific PTS system components IIBC	lcl|SCA50:c4597402-4596083	SCA50_4607
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Doubtful CDS found within S. typhi pathogenicity island	lcl|SCA50:c2967921-2967661	SCA50_2998
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	homologous to secreted protein sopD	lcl|SCA50:1035383-1036342	SCA50_1003
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	High frequency lysogenization protein hflD homolog	lcl|SCA50:c1298901-1298254	SCA50_1273
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	homolog of virulence protein MsgA	lcl|SCA50:2350612-2350872	SCA50_2402
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Transcriptional repressor rcnR homolog	lcl|SCA50:c3132981-3132709	SCA50_3154
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Glycoside hydrolase, chitinase active site	lcl|SCA50:c1397694-1397464	SCA50_1399
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	O-antigen translocase in LPS biosyntesis	lcl|SCA50:4056604-4057854	SCA50_4080
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Pyridine nucleotide-disulphide oxidoreductase, NAD-binding region	lcl|SCA50:712398-714035	SCA50_0684
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	SNARE associated Golgi protein	lcl|SCA50:2282584-2283180	SCA50_2333
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	haemolysin-related protein	lcl|SCA50:c773810-772932	SCA50_0746
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	formate-dependent nitrite reductase; involved in attachment of haem c to cytochrome c552	lcl|SCA50:4439054-4441276	SCA50_4446
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	bifunctional aspartokinase I/homeserine dehydrogenase I	lcl|SCA50:337-2799	SCA50_0001
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putaive minor fimbrial subunit	lcl|SCA50:230857-231369	SCA50_0210
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putaive minor fimbrial subunit	lcl|SCA50:3049606-3050160	SCA50_3082
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Chemotaxis methyl-accepting receptor, signalling	lcl|SCA50:c3249832-3248777	SCA50_3278
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative dimethyl sulphoxide reductase	lcl|SCA50:c1609705-1607270	SCA50_1620
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative dimethyl sulphoxide reductase chain A1	lcl|SCA50:c1612245-1609804	SCA50_1621
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Sulphur relay, DsrE-like protein	lcl|SCA50:1875996-1876349	SCA50_1886
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Iron-sulphur-dependent L-serine dehydratase single chain form	lcl|SCA50:c2309274-2307907	SCA50_2361
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Sulphur relay, DsrE-like protein	lcl|SCA50:c3547000-3546614	SCA50_3603
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	4Fe-4S ferredoxin, iron-sulphur binding	lcl|SCA50:c4706637-4705774	SCA50_4723
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA helicase, DnaB-like, C-terminal	lcl|SCA50:385342-387222	SCA50_0364
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative hydrolase N-terminus	lcl|SCA50:753210-753500	SCA50_0728
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Adenosylcobalamin biosynthesis, ATP:cob(I)alamin adenosyltransferase, PduO-type, N-terminal	lcl|SCA50:2139667-2140677	SCA50_2199
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Prepilin-type cleavage/methylation, N-terminal	lcl|SCA50:c3106138-3105818	SCA50_3128
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	modification of 30S ribosomal subunit protein S18; acetylation of N-terminal alanine	lcl|SCA50:4699639-4700085	SCA50_4716
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	N-(5'-phospho-L-ribosyl-formimino)-5-amino-1-(5'-phosphoribosyl)-4-imidazolecarboxamide isomerase	lcl|SCA50:2168662-2169399	SCA50_2227
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	transcriptional repressor for envCD (acrEF) (TetR/AcrR family)	lcl|SCA50:c3504112-3503450	SCA50_3537
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Ribosome maturation factor rimM;  16S rRNA processing protein	lcl|SCA50:c2825230-2824682	SCA50_2858
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Transport-associated  and nodulation region, bacteria	lcl|SCA50:3381058-3381633	SCA50_3413
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC superfamily (atp_bind) transport system	lcl|SCA50:c284040-283009	SCA50_0258
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Transposase_8	lcl|SCA50:344521-344688	SCA50_0317
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ABC superfamily (atp_bind) high affinity Zn transport protein	lcl|SCA50:2003929-2004684	SCA50_2031
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ygfB_yecA: yecA family protein	lcl|SCA50:c2048730-2048065	SCA50_2078
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ZINC_PROTEASE	lcl|SCA50:c2607235-2606372	SCA50_2652
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ZINC_PROTEASE	lcl|SCA50:2768389-2769075	SCA50_2796
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ABC superfamily (bind_prot) maltose transport protein, substrate recognition for transport and chemotaxis	lcl|SCA50:c4369813-4368623	SCA50_4393
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Polysaccharide deacetylases	lcl|SCA50:341544-342437	SCA50_0314
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative multidrug transporter membrane\ATP-binding components	lcl|SCA50:561124-562896	SCA50_0537
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative multidrug transporter membrane\ATP-binding components	lcl|SCA50:562889-564670	SCA50_0538
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	sensory histidine kinase in two-component regulatory system with DpiA, regulation of cit operon and plasmid inheritance genes	lcl|SCA50:729246-730907	SCA50_0702
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	DNA starvation/stationary phase protection protein Dps	lcl|SCA50:c925252-924749	SCA50_0899
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	S-adenosyl-L-methionine-dependent methyltransferases	lcl|SCA50:c1150094-1148727	SCA50_1114
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	P-loop containing nucleoside triphosphate hydrolases	lcl|SCA50:1190981-1191835	SCA50_1160
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative dehydrogenase and related proteins	lcl|SCA50:1199599-1200705	SCA50_1167
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	glucose-specific PTS system IIBC components	lcl|SCA50:1263771-1265204	SCA50_1242
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	periplasmic murein peptide-binding protein precurs	lcl|SCA50:c1349364-1347676	SCA50_1331
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Lipocalins	lcl|SCA50:1372153-1372803	SCA50_1364
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	ABC-type proline/glycine betaine transport systems, ATPase component	lcl|SCA50:c1602522-1601374	SCA50_1613
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative membrane transporter of cations	lcl|SCA50:c1754829-1754491	SCA50_1762
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Protein gns	lcl|SCA50:c1919604-1919431	SCA50_1930
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2131574-2132386	SCA50_2188
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2137497-2137772	SCA50_2194
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2137776-2138258	SCA50_2195
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2139382-2139657	SCA50_2198
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2143189-2144544	SCA50_2202
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2144547-2144876	SCA50_2203
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	propanediol utilization: polyhedral bodies	lcl|SCA50:2144857-2145000	SCA50_2205
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	regulator of length of O-antigen component of lipopolysaccharide chains	lcl|SCA50:c2171880-2170843	SCA50_2230
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative ABC-type proline/glycine betaine transport systems, permease component	lcl|SCA50:c2273205-2272474	SCA50_2325
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	Radical SAM enzymes	lcl|SCA50:c2671914-2670748	SCA50_2697
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	PTS family, glucitol/sorbitol-specific IIB component, one of two IIC components	lcl|SCA50:2923307-2924278	SCA50_2951
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	surface presentation of antigens; secretory proteins	lcl|SCA50:c2979809-2978799	SCA50_3010
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	surface presentation of antigens; secretory proteins	lcl|SCA50:c2981929-2981522	SCA50_3013
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	RmlC-like cupins	lcl|SCA50:c3235670-3235296	SCA50_3266
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	P-loop containing nucleoside triphosphate hydrolases	lcl|SCA50:3430236-3431090	SCA50_3470
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	PTS family, mannitol-specific enzyme IIABC components	lcl|SCA50:3803825-3805741	SCA50_3836
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative Zn-dependent hydrolase, including glyoxylases	lcl|SCA50:3857719-3858600	SCA50_3889
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	outer membrane receptor for transport of vitamin B12, E colicins, and bacteriophage BF23	lcl|SCA50:4268496-4270340	SCA50_4289
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative nitrite reductase; formate-dependent, Fe-S centers	lcl|SCA50:4437437-4438108	SCA50_4444
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	resembles potassium channels	lcl|SCA50:4534911-4536014	SCA50_4541
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	putative peptide maturation protein, maturation of antibiotic MccB17, see tld genes	lcl|SCA50:4580995-4582347	SCA50_4589
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:CDS	P-loop containing nucleoside triphosphate hydrolases	lcl|SCA50:4640447-4642540	SCA50_4651
+
+DiscRep_ALL:N_RUNS::1 sequences have runs of 20 or more Ns
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:SCA50 (length 4740379)
+
+DiscRep_ALL:ADJACENT_PSEUDOGENES::3 pseudogenes match an adjacent pseudogene's text
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0927	lcl|SCA50:c958027-957103	SCA50_0927
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_0928	lcl|SCA50:c958718-958292	SCA50_0928
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2703	lcl|SCA50:c2679813-2677501	SCA50_2703
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_2704	lcl|SCA50:c2684748-2679817	SCA50_2704
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1913	lcl|SCA50:1900258-1901799	SCA50_1913
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:Gene	SCA50_1914	lcl|SCA50:1901814-1902947	SCA50_1914
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:DISC_TRINOMIAL_SHOULD_HAVE_QUALIFIER::1 trinomial sources lack corresponding qualifier
+/nfs_netapp/erichar4/Salmonella_Genomes/SQN_files/SCA50.sqn:SCA50:Salmonella enterica subsp. enterica serovar Choleraesuis >
+
